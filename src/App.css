@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+
+}
+
+.header{
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.header h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+.main-course-container{
+  max-width: 1000px;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.course-container{
+  border: 1px solid red;
+  width: 300px;
+  border-radius: 12px;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.course-container .course-title{
+  margin-bottom: .5rem;
+  font-size: 24px;
+
+}
+
+.course-container .course-price{
+  font-size: 18px;
+  margin: 1rem 0;
+}
+
+.course-container .course-content{
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+
+}
+
+.btn-delete{
+  background-color: #ef4f4f;
+  padding: .5rem 1rem;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 12px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: .5s;
+  box-shadow: 0 6px 0 #BB1542;
+}
+
+.btn-delete:active{
+  box-shadow: none;
+  transform: translateY(6px);
+}
